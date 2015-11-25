@@ -1,0 +1,14 @@
+.container{
+    background: #c9e2b3;
+    margin: 30px auto;
+    box-shadow:5px 5px 5px rgba(0,0,0,.6);
+    border: 2px solid bisque;
+    border-radius: 15px;
+}
+.container div{
+    text-align: center;
+    margin: 30px;
+}
+li{
+    margin-top: 10px;
+}

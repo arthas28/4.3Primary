@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web前段面试题集锦</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="webQA.css">
+</head>
+<body>
+    <div class="container">
+        <div><h2>web前段面试题集锦</h2></div>
+        <ol>
+            <li>
+                <dt>下面有关css选择器的说法错误的是?(C)</dt>
+                <dd>A. .intro --- 选择 class="intro" 的所有元素。</dd>
+                <dd>B. #firstname --- 选择 id="firstname" 的所有元素。</dd>
+                <dd>C. div>p --- 选择所有 div 元素和所有 p 元素</dd>
+                <dd>D. p --- 选择所有 p 元素</dd>
+            </li>
+            <li>
+                <dt>如何让一个区块居中?(A、B)</dt>
+                <dd>A.center</dd>
+                <dd>B.center-block</dd>
+                <dd>C.horizontal-center</dd>
+                <dd>D.vertical-center</dd>
+            </li>
+            <li>
+                <dt>下面列出的浏览器,无webkit内核的是(D)</dt>
+                <dd>A. chrome</dd>
+                <dd>B. Safari</dd>
+                <dd>C. 搜狗浏览器</dd>
+                <dd>D. firefox</dd>
+            </li>
+            <li>
+                <dt>下面有关HTML的Doctype和严格模式与混杂模式的描述,错误的是?(C)</dt>
+                <dd>A. 声明位于文档中的最前面,处于 标签之前。告知浏览器的解析器,用什么文档类型 规范来解析这个文档</dd>
+                <dd>B. 在标准模式中,浏览器根据规范呈现页面;在混杂模式中,页面以一种比较宽松的向 后兼容的方式显示</dd>
+                <dd>C. DOCTYPE不存在或格式不正确会导致文档以标准模式呈现</dd>
+                <dd>D. 浏览器根据DOCTYPE是否存在以及使用的哪种DTD来选择要使用的呈现方法</dd>
+            </li>
+            <li>
+                <dt>下列哪一个是页面载入时会触发什么Dom事件?(C)</dt>
+                <dd>A.onchange</dd>
+                <dd>B.onaclive</dd>
+                <dd>C.onload</dd>
+                <dd>D.onresize</dd>
+            </li>
+            <li>
+                <dt>关于canvas不正确的是?(B)</dt>
+                <dd>A. canvas是HTML5的一部分,允许脚本动态渲染位图像</dd>
+                <dd>B. canvas是作为Flash的替代技术出现</dd>
+                <dd>C. canvas拥有多种绘制路径、矩形、圆形、字符及添加图像的方法</dd>
+                <dd>D. Internet Explorer自Internet Explorer9起已经可以支持canvas</dd>
+            </li>
+            <li>
+                <dt>浮动会导致页面的非正常显示,一下几种清除浮动的方法,哪个是不推荐使用的? (C)</dt>
+                <dd>A. 在浮动元素末尾添加一个空的标签例如 div style=”clear:both” div</dd>
+                <dd>B. 通过设置父元素overflow值为hidden</dd>
+                <dd>C. 父元素也设置浮动</dd>
+                <dd>D. 给父元素添加clearfix类</dd>
+            </li>
+            <li>
+                <dt>哪些是正确的辅助类(A、B、C、D)</dt>
+                <dd>A. text-muted</dd>
+                <dd>B. text-success</dd>
+                <dd>C. text-info</dd>
+                <dd>D. text-warning</dd>
+            </li>
+            <li>
+                <dt>关于栅格系统,哪些是正确的(A、B、C、D)</dt>
+                <dd>A. col-sm-*</dd>
+                <dd>B. col-xs-*</dd>
+                <dd>C. col-md-*</dd>
+                <dd>D. col-lg-*</dd>
+            </li>
+            <li>
+                <dt>CSS3支持下列哪一个标签?(A)</dt>
+                <dd>A. box-shadow</dd>
+                <dd>B. border</dd>
+                <dd>C. background</dd>
+                <dd>D. display</dd>
+            </li>
+            <li>
+                <dt>把鼠标移到按钮并点击时,会产生一串什么样的事件?(D)</dt>
+                <dd>A. active hove focus</dd>
+                <dd>B. foucs hove active</dd>
+                <dd>C. hove active foucus</dd>
+                <dd>D. hover focus active</dd>
+            </li>
+            <li>
+                <dt>以下位于head间的代码片段是做什么用的(B)<br>meta name="viewport" content="width=device-width, initial-scale=1"</dt>
+                <dd>A. 使得页面编码合乎要求</dd>
+                <dd>B. 表示支持响应式设计</dd>
+                <dd>C. 支持正常的绘制和缩放</dd>
+                <dd>D. 表示针对滚屏进行适当的适配</dd>
+            </li>
+            <li>
+                <dt>下面关于IE、FF下面CSS的解释区别描述正确的有?(C、D)</dt>
+                <dd>A. FireFox的div的内嵌div可以把父级的高度撑大,而IE6.0不可以,要自己设置高度。</dd>
+                <dd>B. 当设置为三列布局时,FireFox0的float宽度不能达到100%,而IE6.可以。当设置为 两列布局时,两种浏览器都可以。</dd>
+                <dd>C. 火狐浏览器中,非float的div前面有同一父级的float的div,此div若有背景图,要使 用clear:both,才能显示背景图,而IE6.0中不用使用clear:both</dd>
+                <dd>D. 在[text-decoration:underline]的属性下,IE6.0显示的下划线会比FireFox低一点。 在FireFox中,部分笔画会在下划线的下面1个象素左右。</dd>
+            </li>
+            <li>
+                <dt>在使用table表现数据时,有时候表现出来的会比自己实际设置的宽度要宽,为此需 要设置下面哪些属性值?(A、D)</dt>
+                <dd>A. cellpadding="0"</dd>
+                <dd>B. padding:0</dd>
+                <dd>C. margin:0</dd>
+                <dd>D. cellspacing=”0′′</dd>
+            </li>
+            <li>
+                <dt>在bootstrap中,关于导航条,下列说法正确的是?(A、B、C、D)</dt>
+                <dd>A. 应该将被包裹的元素放到navbar-collapse类中</dd>
+                <dd>B. 表单应该放置于navbar-form内</dd>
+                <dd>C. 可以使用navbar-left和navbar-right来对齐导航条</dd>
+                <dd>D. 可以使用navbar-fixed-top和navbar-fixed-bottom来将导航条固定到顶部或底部</dd>
+            </li>
+            <li>
+                <dt>嵌入在HTML文档中的图像格式可以是?(A、C、D)</dt>
+                <dd>A. *.gif</dd>
+                <dd>B. *.tif</dd>
+                <dd>C. *.bmp</dd>
+                <dd>D. *.jpg</dd>
+            </li>
+            <li>
+                <dt>下列js可以让一个input的背景颜色变成红色的是?(A)</dt>
+                <dd>A. inputElement.style.backgroundColor = 'red';</dd>
+                <dd>B. inputElement.backgroundColor = 'red';</dd>
+                <dd>C. inputElement.style.backgroundColor = '#0000';</dd>
+                <dd>D. inputElement.backgroundColor = ‘#0000';</dd>
+            </li>
+            <li>
+                <dt>元素的alt和title有什么异同,选出正确的说法?(B)</dt>
+                <dd>A. 不同的浏览器,表现一样</dd>
+                <dd>B. alt和title同时设置的时候,alt作为图片的替代文字出现,title是图片的解释文字</dd>
+                <dd>C. alt和title同时设置的时候,title作为图片的替代文字出现,alt是图片的解释文字</dd>
+                <dd>D. 以上说法都不正确</dd>
+            </li>
+            <li>
+                <dt>在不涉及样式情况下,页面元素的优先显示与结构摆放顺序无关。请判断这句话的正 确与否。(B)</dt>
+                <dd>A. 对</dd>
+                <dd>B. 错</dd>
+            </li>
+            <li>
+                <dt>下列哪个操作是W3C标准定义的阻止事件向父容器传递:(C)</dt>
+                <dd>A. e.preventDefault()</dd>
+                <dd>B. e.cancelBubble=true</dd>
+                <dd>C. e.stopPropagation()</dd>
+                <dd>D. e.stopImmediatePropagation()</dd>
+            </li>
+            <li>
+                <dt>对于border-radius标签,说法错误的是(B)</dt>
+                <dd>A. 表示圆角边框</dd>
+                <dd>B. IE8支持良好</dd>
+                <dd>C. IE9支持良好</dd>
+                <dd>D. firefox支持良好</dd>
+            </li>
+            <li>
+                <dt>下述有关css属性position的属性值的描述,说法错误的是?(B)</dt>
+                <dd>A. static:没有定位,元素出现在正常的流中</dd>
+                <dd>B. fixed:生成绝对定位的元素,相对于父元素进行定位</dd>
+                <dd>C. relative:生成相对定位的元素,相对于元素本身正常位置进行定位。</dd>
+                <dd>D. absolute:生成绝对定位的元素,相对于 static 定位以外的第一个祖先元素进行定 位。</dd>
+            </li>
+            <li>
+                <dt>下面有关html Doctype的描述,说法错误的是?(D)</dt>
+                <dd>A. 它的责任就是告诉浏览器文档使用哪种html或者xhtml规范</dd>
+                <dd>B. 不同文档模式主要影响CSS内容的呈现,尤其是浏览器对盒模型的解析</dd>
+                <dd>C. 不同浏览器在混杂模式下的行为差异非常大,如果不使用某些hack技术,跨浏览器 的行为根本就没有一致性可言。</dd>
+                <dd>D. 如果在文档开始处没有发现文档类型声明,则所有浏览器都会默认开启严格模式</dd>
+            </li>
+            <li>
+                <dt>Doctype? 严格模式与混杂模式-如何触发这两种模式,区分它们有何意义?</dt>
+                <dd>用于声明文档使用那种规范(HTML/XHTML)一般为 严格 过度 基于框架的html文档, 加入XMl声明可触发,解析方式更改为IE5.5 拥有IE5.5的bug。</dd>
+            </li>
+            <li>
+                <dt>前端页面有哪三层构成,分别是什么?作用是什么?</dt>
+                <dd>结构层 HTML 表示层 CSS 行为层 js</dd>
+            </li>
+            <li>
+                <dt>对WEB标准以及W3C的理解与认识?</dt>
+                <dd>标签闭合、标签小写、不乱嵌套、提高搜索机器人搜索几率、使用外链css和js脚本、结 构行为表现的分离、文件下载与页面速度更快、内容能被更多的用户所访问、内容能被 更广泛的设备所访问、更少的代码和组件,容易维护、改版方便,不需要变动页面内容、 提供打印版本而不需要复制内容、提高网站易用性。</dd>
+            </li>
+            <li>
+                <dt>XHTML和HTML有什么区别?</dt>
+                <dd>
+                    HTML是一种基本的WEB网页设计语言,XHTML是一个基于XML的置标语言 最主要的不同:
+                    XHTML 元素必须被正确地嵌套。
+                    XHTML 元素必须被关闭。
+                    标签名必须用小写字母。
+                    XHTML 文档必须拥有根元素。
+                </dd>
+            </li>
+            <li>
+                <dt>CSS的基本语句构成是?</dt>
+                <dd>选择器{属性1:值1;属性2:值2;⋯⋯}</dd>
+            </li>
+            <li>
+                <dt>行内元素有哪些?块级元素有哪些?CSS的盒模型?</dt>
+                <dd>
+                    块级元素:div p h1 h2 h3 h4 form ul
+                    行内元素: a b br i span input select
+                    Css盒模型:内容,border ,margin,padding
+                </dd>
+            </li>
+            <li>
+                <dt>CSS引入的方式有哪些? link和@import的区别是?</dt>
+                <dd>
+                    内联 内嵌 外链 导入
+                    区别 :同时加载
+                    前者无兼容性,后者CSS2.1以下浏览器不支持
+                    Link 支持使用javascript改变样式,后者不可
+                </dd>
+            </li>
+            <li>
+                <dt>CSS选择符有哪些?哪些属性可以继承?优先级算法如何计算?内联和important哪 个优先级高?</dt>
+                <dd>
+                    标签选择符 类选择符 id选择符 继承不如指定 Id>class>标签选择 后者优先级高
+                </dd>
+            </li>
+            <li>
+                <dt>你做的页面在哪些流览器测试过?这些浏览器的内核分别是什么?</dt>
+                <dd>Ie(Ie内核) 火狐(Gecko) 谷歌(webkit) opear(Presto)</dd>
+            </li>
+            <li>
+                <dt>img标签上title与alt属性的区别是什么?</dt>
+                <dd>
+                    Alt 当图片不显示是 用文字代表。
+                    Title 为该属性提供信息
+                </dd>
+            </li>
+            <li>
+                <dt>描述css reset的作用和用途。</dt>
+                <dd>Reset重置浏览器的css默认属性,浏览器品种不同,样式不同,然后重置让他们统一。</dd>
+            </li>
+            <li>
+                <dt>写出几种IE6 BUG的解决方法</dt>
+                <dd>
+                    1. 双边距BUG float引起的 使用display
+                    2. 3像素问题 使用float引起的 使用dislpay:inline -3px
+                    3. 超链接hover 点击后失效 使用正确的书写顺序 link visited hover active
+                    4. Ie z-index问题 给父级添加position:relative
+                    5. Png 透明 使用js代码 改
+                    6. Min-height 最小高度 !Important 解决’
+                    7. select 在ie6下遮盖 使用iframe嵌套
+                    8. 为什么没有办法定义1px左右的宽度容器(IE6默认的行高造成的,使用
+                    over:hidden,zoom:0.08 line-height:1px)
+                    9. ie 6 不支持!important
+                </dd>
+            </li>
+            <li>
+                <dt>解释css sprites,如何使用。</dt>
+                <dd>Css 精灵 把一堆小的图片整合到一张大的图片上,减轻服务器对图片的请求数量。</dd>
+            </li>
+            <li>
+                <dt>浏览器标准模式和怪异模式之间的区别是什么?</dt>
+                <dd>盒子模型 渲染模式的不同</dd>
+            </li>
+            <li>
+                <dt>什么是语义化的HTML?</dt>
+                <dd>直观的认识标签 对于搜索引擎的抓取有好处</dd>
+            </li>
+            <li>
+                <dt>你如何对网站的文件和资源进行优化?有哪些解决方案?</dt>
+                <dd>
+                    文件合并
+                    文件最小化/文件压缩
+                    使用CDN托管
+                    缓存的使用
+                </dd>
+            </li>
+            <li>
+                <dt>清除浮动的几种方式,各自的优缺点</dt>
+                <dd>
+                    1.使用空标签清除浮动 clear:both(理论上能清楚任何标签,增加无意义的标签)
+                    2. 使用overflow:auto(空标签元素清除浮动而不得不增加无意代码的弊端,,使用
+                    zoom:1 用于兼容IE)
+                    3. 是用afert伪元素清除浮动(用于非IE浏览器)
+                </dd>
+            </li>
+            <li>
+                <dt>javascript的typeof返回哪些数据类型</dt>
+                <dd>Object number function boolean underfind</dd>
+            </li>
+            <li>
+                <dt>例举3种强制类型转换和2种隐式类型转换?</dt>
+                <dd>强制(parseInt,parseFloat,number) 隐式(== – ===)</dd>
+            </li>
+            <li>
+                <dt>数组方法pop() push() unshift() shift()</dt>
+                <dd>Push()尾部添加 pop()尾部删除 Unshift()头部添加 shift()头部删除</dd>
+            </li>
+            <li>
+                <dt>IE和标准下有哪些兼容性的写法</dt>
+                <dd>
+                    Var ev = ev || window.event
+                    document.documentElement.clientWidth || document.body.clientWidth Var target = ev.srcElement||ev.target
+                </dd>
+            </li>
+            <li>
+                <dt>IE和DOM事件流的区别</dt>
+                <dd>
+                    1. 执行顺序不一样
+                    2. 参数不一样
+                    3. 事件加不加on
+                    4. this指向问题
+                </dd>
+            </li>
+            <li>
+                <dt>split() join() 的区别</dt>
+                <dd>前者是切割成数组的形式,后者是将数组转换成字符串</dd>
+            </li>
+            <li>
+                <dt>ajax请求的时候get 和post方式的区别</dt>
+                <dd>
+                    一个在url后面 一个放在虚拟载体里面 有大小限制
+                    安全问题
+                    应用不同 一个是论坛等只需要请求的,一个是类似修改密码的
+                </dd>
+            </li>
+            <li>
+                <dt>call和apply的区别</dt>
+                <dd>Object.call(this,obj1,obj2,obj3) Object.apply(this,arguments)</dd>
+            </li>
+            <li>
+                <dt>ajax请求时,如何解释json数据</dt>
+                <dd>使用eval parse 鉴于安全性考虑 使用parse更靠谱</dd>
+            </li>
+            <li>
+                <dt>事件委托是什么</dt>
+                <dd>让利用事件冒泡的原理,让自己的所触发的事件,让他的父元素代替执行!</dd>
+            </li>
+            <li>
+                <dt>闭包是什么,有什么特性,对页面有什么影响?</dt>
+                <dd>闭包就是能够读取其他函数内部变量的函数。</dd>
+            </li>
+            <li>
+                <dt>如何阻止事件冒泡和默认事件</dt>
+                <dd>canceBubble return false</dd>
+            </li>
+            <li>
+                <dt>添加 删除 替换 插入到某个接点的方法</dt>
+                <dd>
+                    obj.appendChidl()
+                    obj.innersetBefore
+                    obj.replaceChild
+                    obj.removeChild
+                </dd>
+            </li>
+            <li>
+                <dt>解释jsonp的原理,以及为什么不是真正的ajax</dt>
+                <dd>动态创建script标签,回调函数 Ajax是页面无刷新请求数据操作</dd>
+            </li>
+            <li>
+                <dt>javascript的本地对象,内置对象和宿主对象</dt>
+                <dd>本地对象为array obj regexp等可以new实例化 内置对象为gload Math 等不可以实例化的 宿主为浏览器自带的document,window 等</dd>
+            </li>
+            <li>
+                <dt>document load 和document ready的区别</dt>
+                <dd>Document.onload 是在结构和样式加载完才执行js Document.ready原生种没有这个方法,jquery中有 $().ready(function)</dd>
+            </li>
+            <li>
+                <dt>”==”和“===”的不同</dt>
+                <dd>前者会自动转换类型 后者不会</dd>
+            </li>
+            <li>
+                <dt>javascript的同源策略</dt>
+                <dd>一段脚本只能读取来自于同一来源的窗口和文档的属性,这里的同一来源指的是主机名、 协议和端口号的组合。</dd>
+            </li>
+            <li>
+                <dt>简述HTML经常使用的标签和作用。</dt>
+                <dd>Div/a/p/span/li/ul/ol/table/tr/td</dd>
+            </li>
+            <li>
+                <dt>你认为最常遇到的兼容Bug有哪些?有哪些问题是你认为解决起来最麻烦的?</dt>
+                <dd>IE6 PNG  IE6 Fixed</dd>
+            </li>
+            <li>
+                <dt>函数的几种定义方法?</dt>
+                <dd>function a(){},   var a = function(){}</dd>
+            </li>
+            <li>
+                <dt>CSS定位方式有哪些?position属性的值有哪些?他们之间的区别是什么?</dt>
+                <dd>
+                    在CSS中关于定位的内容是:position:relative | absolute | static | fixed
+                    1. static 没有特别的设定,遵循基本的定位规定,不能通过z-index进行层次分级。
+                    2. relative 不脱离文档流,参考自身静态位置通过 top,bottom,left,right 定位,并且
+                    可以通过z-index进行层次分级。
+                    3. absolute 脱离文档流,通过 top,bottom,left,right 定位。选53D6其最近的父级定
+                    位元素,当父级 position 为 static 时,absolute元素将以body坐标原点进行定位,
+                    可以通过z-index进行层次分级。
+                    4. fixed 固定定位,这里他所固定的对像是可视窗口而并非是body或是父级元素。可
+                    通过z-index进行层次分级。
+                </dd>
+            </li>
+            <li>
+                <dt>对象的定义方法?</dt>
+                <dd>a = new Object(), a = {}</dd>
+            </li>
+            <li>
+                <dt>类的定义方法(prototype)(继承)</dt>
+                <dd>
+                    Var a = function(){}
+                    a.prototype = {}
+                    new a();
+                </dd>
+            </li>
+            <li>
+                <dt>this 关键字的指向</dt>
+                <dd>
+                    obj.foo() == obj;//方法调用模式,this指向obj
+                    foo() == window;//函数调用模式,this指向window
+                    new obj.foo() == obj;//构造器调用模式, this指向新建立对象
+                    foo.call(obj) == obj;//APPLY调用模式,this指向obj
+
+                </dd>
+            </li>
+            <li>
+                <dt>异步ajax的优缺点都有什么?</dt>
+                <dd>
+                    优点:
+                    a. 相对于同步ajax:不会造成UI卡死,用户体验好。
+                    b. 相对于刷新页面,省流量。
+                    缺点:
+                    a. 后退按钮无效。
+                    b. 多个请求同时触发时,由于回调时间不确定,会造成混乱,避免这种混乱需要复杂的 判断机制。
+                    c. 搜索引擎不友好。
+                    d. 数据安全。
+                </dd>
+            </li>
+            <li>
+                <dt>说说最近最流行的一些东西吧?常去哪些网站?</dt>
+                <dd>Node.js、Mongodb、npm、MVVM、MEAN、three.js</dd>
+            </li>
+            <li>
+                <dt>对Node的优点和缺点提出了自己的看法?</dt>
+                <dd>
+                    1. 优点:因为Node是基于事件驱动和无阻塞的,所以非常适合处理并发请求, 因此
+                    构建在Node上的代理服务器相比其他技术实现(如Ruby)的服务器表现要好得 多。 此外,与Node代理服务器交互的客户端代码是由javascript语言编写的, 因 此客户端和服务器端都用同一种语言编写,这是非常美妙的事情。
+                    2. 缺点:Node是一个相对新的开源项目,所以不太稳定,它总是一直在变, 而且缺 少足够多的第三方库支持。看起来,就像是Ruby/Rails当年的样子。
+                </dd>
+            </li>
+            <li>
+                <dt>对语义化如何理解?</dt>
+                <dd>
+                    用正确的标签做正确的事情! HTML语义化就是让页面的内容结构化,便于对浏览器、搜索引擎解析;在没有样式CCS 情况下也以一种文档格式显示,并且是容易阅读的。搜索引擎的爬虫依赖于标记来确定 上下文和各个关键字的权重,利于 SEO。使阅读源代码的人对网站更容易将网站分块, 便于阅读维护理解。
+                </dd>
+            </li>
+            <li>
+                <dt>http状态码有那些?分别代表是什么意思?</dt>
+                <dd>
+                    100-199 用于指定客户端应相应的某些动作。
+                    200-299 用于表示请求成功。
+                    300-399 用于已经移动的文件并且常被包含在定位头信息中指定新的地址信息。 400- 499 用于指出客户端的错误。
+                    400 语义有误,当前请求无法被服务器理解。 401 当前请求需要用户验证
+                    403 服务器已经理解请求,但是拒绝执行它。 500-599 用于支持服务器错误。
+                    503 – 服务不可用
+                </dd>
+            </li>
+            <li>
+                <dt>你有哪些性能优化的方法?</dt>
+                <dd>
+                    看雅虎性能优化原则:
+                    1. 减少http请求次数:CSS Sprites, JS、CSS源码压缩、图片大小控制合适;网页
+                    Gzip,CDN托管,data缓存 ,图片服务器。
+                    2. 前端模板 JS+数据,减少由于HTML标签导致的带宽浪费,前端用变量保存AJAX请
+                    求结果,每次操作本地变量,不用请求,减少请求次数
+                    3. 用innerHTML代替DOM操作,减少DOM操作次数,优化javascript性能。
+                    4. 当需要设置的样式很多时设置className而不是直接操作style。
+                    5. 少用全局变量、缓存DOM节点查找的结果。减少IO读取操作。
+                    6. 避免使用CSS Expression(css表达式)又称Dynamic properties(动态属性)。
+                    7. 图片预加载,将样式表放在顶部,将脚本放在底部 加上时间戳。
+                    8. 避免在页面的主体布局中使用table,table要等其中的内容完全下载之后才会显示出
+                    来,显示比div+css布局慢。
+                </dd>
+            </li>
+            <li>
+                <dt>移动端(Android IOS)怎么做好用户体验?</dt>
+                <dd>清晰的视觉纵线、信息的分组、极致的减法、利用选择代替输入、标签及文字的排布方 式、依靠明文确认密码、合理的键盘利用。</dd>
+            </li>
+            <li>
+                <dt>平时如何管理你的项目?</dt>
+                <dd>
+                    先期团队必须确定好全局样式(globe.css),编码模式(utf-8) 等
+                    编写习惯必须一致(例如都是采用继承式的写法,单样式都写成一行);
+                    标注样式编写人,各模块都及时标注(标注关键样式调用的地方);
+                    页面进行标注(例如 页面 模块 开始和结束);
+                    CSS跟HTML 分文件夹并行存放,命名都得统一(例如style.css)
+                    JS 分文件夹存放 命民以该JS 功能为准英文翻译;
+                    图片采用整合的 images.png png8 格式文件使用 尽量整合在一起使用方便将来的管理。
+                </dd>
+            </li>
+            <li>
+                <dt>对前端界面工程师这个职位是怎么样理解的?它的前景会怎么样?</dt>
+                <dd>
+                    前端是最贴近用户的程序员,比后端、数据库、产品经理、运营、安全都近。
+                    1. 实现界面交互
+                    2. 提升用户体验
+                    3. 有了Node.js,前端可以实现服务端的一些事情前端是最贴近用户的程序员,前端的
+                    能力就是能让产品从 90分进化到 100 分,甚至更好, 参与项目,快速高质量完成 实现效果图,精确到1px; 与团队成员,UI设计,产品经理的沟通; 做好的页面结 构,页面重构和用户体验; 处理hack,兼容、写出优美的代码格式; 针对服务器 的优化、拥抱最新前端技术。
+
+                </dd>
+            </li>
+            <li>
+                <dt>想问公司的问题?</dt>
+                <dd>目前关注哪些最新的Web前端技术(未来的发展方向)? 前端团队如何工作的(实现一个产品的流程)? 公司的薪资结构是什么样子的?</dd>
+            </li>
+            <li>
+                <dt>Doctype作用? 严格模式与混杂模式如何区分?它们有何意义?</dt>
+                <dd>
+                    1. 声明位于文档中的最前面,处于 标签之前。告知浏览器的解析器,用什么文档类型
+                    规范来解析这个文档。
+                    2. 严格模式的排版和 JS 运作模式是 以该浏览器支持的最高标准运行。
+                    3. 在混杂模式中,页面以宽松的向后兼容的方式显示。模拟老式浏览器的行为以防止
+                    站点无法工作。
+                    4. DOCTYPE不存在或格式不正确会导致文档以混杂模式呈现。
+                </dd>
+            </li>
+            <li>
+                <dt>浏览器的内核分别是什么?</dt>
+                <dd>IE浏览器的内核Trident、Mozilla的Gecko、Chrome的Blink(WebKit的分支)、 Opera内核原为Presto,现为Blink;</dd>
+            </li>
+            <li>
+                <dt>行内元素有哪些?块级元素有哪些?</dt>
+                <dd>
+                    1. CSS规范规定,每个元素都有display属性,确定该元素的类型,每个元素都有默认
+                    的display值,比如div默认display属性值为“block”成为“块级”元素;span默
+                    认display属性值为“inline”,是“行内”元素。
+                    2. 行内元素有:a b span img input select strong(强调的语气) 块级元素有:
+                    div ul ol li dl dt dd h1 h2 h3 h4⋯p
+                </dd>
+            </li>
+            <li>
+                <dt>link 和@import 的区别是?</dt>
+                <dd>
+                    1. link属于XHTML标签,而@import是CSS提供的;
+                    2. 页面被加载的时,link会同时被加载,而@import引用的CSS会等到页面被加载完再
+                    加载;
+                    3. import只在IE5以上才能识别,而link是XHTML标签,无兼容问题;
+                    4. link方式的样式的权重 高于@import的权重。
+
+                </dd>
+            </li>
+            <li>
+                <dt>HTML5有哪些新特性?如何处理HTML5新标签的浏览器兼容问题?如何区分 HTML 和 HTML5?</dt>
+                <dd>
+                    HTML5 现在已经不是 SGML 的子集,主要是关于图像,位置,存储,多任务等功能的 增加。
+                    绘画 canvas 用于媒介回放的 video 和 audio 元素 本地离线存储 localStorage 长 期存储数据,浏览器关闭后数据不丢失; sessionStorage 的数据在浏览器关闭后自动 删除 语意化更好的内容元素,比如 article、footer、header、nav、section 表单 控件,calendar、date、time、email、url、search 新的技术webworker, websockt, Geolocation
+                </dd>
+            </li>
+            <li>
+                <dt>HTML5的离线储存有几种方式?</dt>
+                <dd>localStorage长期存储数据,浏览器关闭后数据不丢失;sessionStorage数据在浏览 器关闭后自动删除。</dd>
+            </li>
+            <li>
+                <dt>CSS3新增伪类举例</dt>
+                <dd>
+                    p:first-of-type 选择属于其父元素的首个元素的每个元素。 p:last-of-type 选择属于其父元素的最后元素的每个元素。 p:only-of-type 选择属于其父元素唯一的元素的每个元素。 p:only-child 选择属于其父元素的唯一子元素的每个元素。 p:nth-child(2) 选择属于其父元素的第二个子元素的每个元素。 :enabled :disabled 控制表单控件的禁用态。 :checked单选框或复选框被选中。
+                </dd>
+            </li>
+            <li>
+                <dt>对BFC规范的理解?</dt>
+                <dd>W3C CSS 2.1 规范中的一个概念,它决定了元素如何对其内容进行定位,以及与其他元 素的关 系和相互作用。)</dd>
+            </li>
+            <li>
+                <dt>iframe有那些缺点?</dt>
+                <dd>
+                    iframe会阻塞主页面的Onload事件; iframe和主页面共享连接池,而浏览器对相同域的连接有限制,所以会影响页面的并行 加载。使用iframe之前需要考虑这两个缺点。如果需要使用iframe,最好是通过 javascript动态给iframe添加src属性值,这样可以可以绕开以上两个问题。
+                </dd>
+            </li>
+            <li>
+                <dt>请描述一下 cookies,sessionStorage 和 localStorage 的区别?</dt>
+                <dd>cookie在浏览器和服务器间来回传递。 sessionStorage和localStorage不会 sessionStorage和localStorage的存储空间更大;sessionStorage和localStorage有 更多丰富易用的接口;sessionStorage和localStorage各自独立的存储空间。</dd>
+            </li>
+            <li>
+                <dt>eval是做什么的?</dt>
+                <dd>它的功能是把对应的字符串解析成JS代码并运行;应该避免使用eval,不安全,非常耗 性能(2次,一次解析成js语句,一次执行)。</dd>
+            </li>
+            <li>
+                <dt>如何居中div?如何居中一个浮动元素?</dt>
+                <dd>
+                    给div设置一个宽度,然后添加margin:0 auto属性
+                    div{ width:200px; margin:0 auto; }
+                    居中一个浮动元素
+                    确定容器的宽高 宽500 高 300 的层 设置层的外边距 .div { Width:500px ; height:300px;//高度可以不设 Margin: -150px 0 0 -250px; position:relative;相对 定位 background-color:pink;//方便看效果 left:50%; top:50%;}
+                </dd>
+            </li>
+            <li>
+                <dt>css定义的权重</dt>
+                <dd>以下是权重的规则:标签的权重为1,class的权重为10,id的权重为100,以下例子是 演示各种定义的权重值:/*权重为1*/div{}/*权重为10*/.class1{}/*权重为100*/#id1{}/ *权重为100+1=101*/#id1 div{}/*权重为10+1=11*/.class1 div{}/*权重为 10+10+1=21*/.class1 .class2 div{} 如果权重相同,则最后定义的样式会起作用,但 是应该避免这种情况出现。</dd>
+            </li>
+            <li>
+                <dt>CSS3有哪些新特性?</dt>
+                <dd>CSS3实现圆角(border-radius:8px),阴影(box-shadow:10px), 对文字加特 效(text-shadow、),线性渐变(gradient),旋转(transform) transform:rotate(9deg) scale(0.85,0.90) translate(0px,-30px) skew(- 9deg,0deg);//旋转,缩放,定位,倾斜 增加了更多的CSS选择器 多背景 rgba</dd>
+            </li>
+            <li>
+                <dt>介绍一下CSS的盒子模型?</dt>
+                <dd>
+                    1. 有两种,IE盒子模型、标准W3C盒子模型;IE的content部分包含了border和
+                    pading;
+                    2. 盒模型: 内容(content)、填充(padding)、边界(margin)、 边框(border)。
+                </dd>
+            </li>
+            <li>
+                <dt>Node.js的适用场景?</dt>
+                <dd>高并发、聊天、实时消息推送</dd>
+            </li>
+            <li>
+                <dt>介绍js的基本数据类型。</dt>
+                <dd>number,string,boolean,object,undefined</dd>
+            </li>
+            <li>
+                <dt>Javascript如何实现继承?</dt>
+                <dd>通过原型和构造器</dd>
+            </li>
+            <li>
+                <dt>如何创建一个对象? (画出此对象的内存图)</dt>
+                <dd>function Person(name, age) { this.name = name; this.age = age; this.sing = function() { alert(this.name) } }</dd>
+            </li>
+            <li>
+                <dt>谈谈This对象的理解。</dt>
+                <dd>this是js的一个关键字,随着函数使用场合不同,this的值会发生变化。但是有一个总原则,那就是this指的是调用函数的那个对象。this一般情况下:是全局对象Global。 作 为方法调用,那么this就是指这个对象</dd>
+            </li>
+            <li>
+                <dt>事件是什么?IE与火狐的事件机制有什么区别? 如何阻止冒泡?</dt>
+                <dd>
+                    1. 我们在网页中的某个操作(有的操作对应多个事件)。例如:当我们点击一个按钮
+                    就会产生一个事件。是可以被 JavaScript 侦测到的行为。
+                    2. 事件处理机制:IE是事件冒泡、火狐是 事件捕获;
+                    3. ev.stopPropagation()。
+                </dd>
+            </li>
+            <li>
+                <dt>如何判断一个对象是否属于某个类?</dt>
+                <dd>使用instanceof (待完善) if(a instanceof Person){ alert('yes'); }</dd>
+            </li>
+            <li>
+                <dt>什么是闭包(closure),为什么要用它?</dt>
+                <dd>执行say667()后,say667()闭包内部变量会存在,而闭包内部函数的内部变量不会存在.使 得Javascript的垃圾回收机制GC不会收回say667()所占用的资源,因为say667()的内 部函数的执行需要依赖say667()中的变量。这是对闭包作用的非常直白的描述. function say667() { // Local variable that ends up within closure var num = 666; var sayAlert = function() { alert(num); } num++; return sayAlert;} var sayAlert = say667(); sayAlert()//执行结果应该弹出的667</dd>
+            </li>
+            <li>
+                <dt>Javascript中,有一个函数,执行时对象查找时,永远不会去查找原型,这个函数 是?</dt>
+                <dd>hasOwnProperty</dd>
+            </li>
+            <li>
+                <dt>对JSON 的了解?</dt>
+                <dd>JSON(JavaScript Object Notation) 是一种轻量级的数据交换格式。它是基于 JavaScript的一个子集。数据格式简单, 易于读写, 占用带宽小{'age':'12', 'name':'back'}</dd>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>
